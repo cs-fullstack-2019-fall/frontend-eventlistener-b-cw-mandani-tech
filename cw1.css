@@ -1,0 +1,83 @@
+
+
+#container{
+    display: grid;
+    width: 600px;
+    height: 400px;
+    grid-template-columns: 2fr 3fr 1fr 2fr 2fr;
+    grid-template-rows: 1fr 3fr 2fr 1fr;
+    border: 5px solid lightgray;
+    margin: 5px;
+}
+
+header{
+    grid-column: 1/6;
+    grid-row: 1;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: left;
+    padding: 1px;
+    margin: 1px;
+}
+
+main{
+    grid-column: 2/4;
+    grid-row: 2;
+    background-color: yellowgreen;
+    color: white;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+
+
+}
+
+#sidebar{
+    grid-column: 4;
+    grid-row: 2;
+    background-color: darkmagenta;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 1px;
+
+
+}
+
+#twin1{
+    grid-row: 3;
+    grid-column: 2;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin: 1px;
+}
+
+#twin2{
+    grid-row: 3;
+    grid-column: 3/5;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    margin: 1px;
+}
+
+
+
+footer{
+    grid-column: 1/6;
+    grid-row: 4;
+    background-color: blue;
+    color: white;
+    text-align: left;
+    height: 50px;
+    padding: 5px;
+    margin: 1px;
+
+}
+
+.yellowBackground{
+    background-color: yellow;
+}
