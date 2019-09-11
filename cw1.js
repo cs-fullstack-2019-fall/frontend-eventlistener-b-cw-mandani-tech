@@ -10,6 +10,7 @@ elementButton1.addEventListener('click', changeTitle);
 function changeTitle() {
     elementTitle.innerText = '1';
     elementHeader.style.background = 'purple';
+    // !! : change the background to blue using classList
 }
 
 //If you click the #2 button the title should change to "2" and the background to red.
@@ -20,5 +21,6 @@ function changeTitle2() {
 
     //Use classlist to change the background.
     elementHeader.classList.toggle("yellowBackground")
+    // !! : change the background to red usinf classList
     //elementHeader.style.background='red';
 }
